@@ -1,0 +1,182 @@
+header {
+    background-color: black;
+    text-decoration-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8%;
+    box-shadow: 0 5px 10px white;
+    font-style: normal;
+    color: white;
+}
+body {
+    background-color: black;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+    text-decoration: white;
+}
+header  .logo  {
+	font-size: 20px;
+	font-weight: 900;
+	color: black;
+	transition: .5s; }
+    header .logo:hover {
+        transform: scale(1.2)
+    }
+    header nav ul li {
+        position: relative;
+        float: left;
+        
+    }
+    header nav ul li  {
+        padding: 15px;
+        color: black;
+        font-size: 16px;
+        display: block; 
+        
+    }
+    header nav ul li:hover {
+        transform: scale(1.2);
+    }
+    a:link {
+        color : #ffffff;
+        font-style: normal;
+        font-style: bold;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .container {
+        flex: 1;
+    }
+    footer{
+        background-color: black;
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    footer a {
+        color:black;
+        font-size: 1.7rem;
+        transition: 0.5;
+    }
+    footer a:hover{
+        text-decoration: underline;
+        
+    }
+    foooter ft.tittle {
+        font-size: 2.5rem;
+        padding-bottom: 0.5rem;
+    }
+    .ft-main {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1.5rem;
+        justify-content: space-around;
+    }
+    
+    .ft-main-item {
+        padding: 1.5rem;
+        min-width: 13rem;
+    }
+    
+    
+    .fl-legal{
+        padding: 1rem 2rem;
+        background-color:yellow;
+        display: flex;
+            align-items:center;
+        flex-wrap: wrap;
+    }
+    .fl-legal-list {
+        margin-left: 1.5rem;
+        white-space: nowrap;
+    }
+ 
+    ft.tittle {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    p {
+        color:#ffffff;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        justify-content: space-around;
+        margin-top: 10%;
+        font-weight: 100;
+        position: relative;
+        text-align: center;
+    }
+    h1 {
+        color:#ffffff;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        justify-content: space-around;
+        font-weight: 100;
+        text-align: center;
+        padding: 10%;
+    }
+    h2 {
+        color:#ffffff;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        justify-content: space-around;
+        font-weight: 100;
+        text-align: center;
+    }
+    .wiuck-news {
+        background-color: #ffffff;
+        border-radius: 50px;
+        padding-top: 10%;
+        max-width: 720px;
+        max-height: px;
+        justify-content: space-around;
+        margin: auto;
+    }
+    .wiuck-news h2 {
+color: black;
+    }
+    .wiuck-news a {
+        color:black;
+        position: relative;
+        align-items: center;
+        margin-left: 10%;
+        margin-top: 10%;
+        
+    }
+.wiuck-news p {
+    color: black;
+}
+img {
+    margin-top: 1%;
+}
+button  {
+	
+	float: right;
+    display: block;
+    padding: 15;
+	outline : none ;
+	border: none;
+	border-radius: 25px;
+	background-color: white;
+	cursor: pointer;
+	color: black;
+	font-weight: 600;
+	font-size: 20px;
+	align-items: center;
+	right: 40;
+	left:20;
+	top: 20;
+	margin: 5
+}
+.lr {
+    align-items: center;
+    margin-left: 10%;
+}
